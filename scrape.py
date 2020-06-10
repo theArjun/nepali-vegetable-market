@@ -5,6 +5,8 @@ from bs4 import BeautifulSoup
 
 
 def scrape_vegetable_price(lang="NE", date="06/04/2020", pricetype="W"):
+    """ Scrape vegetable price from Kalimati market """
+
     url = "http://kalimatimarket.gov.np/priceinfo/dlypricebulletin"
     form_data = {"cdate": date, "pricetype": pricetype}
     session = requests.Session()
@@ -26,8 +28,8 @@ def scrape_vegetable_price(lang="NE", date="06/04/2020", pricetype="W"):
         meta_data["price_type"] = "Retail"
     else:
         meta_data["price_type"] = "Invalid"
-        
-    data['meta_data'] = meta_data
+
+    data["meta_data"] = meta_data
 
     rows = table.findAll("tr")
     for row in rows[3:]:
@@ -40,6 +42,5 @@ def scrape_vegetable_price(lang="NE", date="06/04/2020", pricetype="W"):
         data[vegetable_name]["avg_price"] = cells[4].get_text()
 
     return data
-
 
 scrape_vegetable_price()
