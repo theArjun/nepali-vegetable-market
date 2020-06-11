@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+header[role="banner"] #logo-main {
+  display: block;
+  margin: auto;
+  border-radius: 100px;
+}
+
+header[role="banner"] .brand-name {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive !important;
+  margin: 0px auto;
+  color: #54a972;
+}

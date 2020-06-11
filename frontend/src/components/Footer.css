@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #484848;
+}
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #fbc531;
+}
+.navbar .navbar-nav .active > .nav-link {
+  color: #fbc531;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.jumbotron {
+  padding: 0;
+}
+
+footer a.text-light:hover {
+  color: #fed136 !important;
+  text-decoration: none;
+}
+
+.bg-success {
+  background-color: #54a972 !important;
+}
+
+.card-body p {
+  margin: 0;
+}

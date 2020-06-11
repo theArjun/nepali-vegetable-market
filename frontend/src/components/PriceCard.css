@@ -1,0 +1,12 @@
+.pricecard {
+  /* position: relative; */
+  max-width: 175px;
+  height: 175px;
+  border-radius: 2rem;
+  left: 23%;
+}
+
+.pricecard p {
+  position: relative;
+  top: 20%;
+}
