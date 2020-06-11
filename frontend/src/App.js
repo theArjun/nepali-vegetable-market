@@ -49,7 +49,7 @@ class App extends Component {
   };
 
   componentDidMount() {
-    axios.get(`http://localhost:5000/`).then((res) => {
+    axios.get(`https://nepali-vegetable-market.herokuapp.com/`).then((res) => {
       const fetched_data = res.data;
       this.setState({ data: fetched_data });
       this.setState({ today_data: this.getTodayData() });
