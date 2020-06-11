@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nepali-vegetable-market/static/css/main.a06da389.chunk.css",
+    "main.js": "/nepali-vegetable-market/static/js/main.f481ffb6.chunk.js",
+    "main.js.map": "/nepali-vegetable-market/static/js/main.f481ffb6.chunk.js.map",
+    "runtime-main.js": "/nepali-vegetable-market/static/js/runtime-main.3b2c677d.js",
+    "runtime-main.js.map": "/nepali-vegetable-market/static/js/runtime-main.3b2c677d.js.map",
+    "static/js/2.e482a87b.chunk.js": "/nepali-vegetable-market/static/js/2.e482a87b.chunk.js",
+    "static/js/2.e482a87b.chunk.js.map": "/nepali-vegetable-market/static/js/2.e482a87b.chunk.js.map",
+    "index.html": "/nepali-vegetable-market/index.html",
+    "precache-manifest.6b83d603ad31e1e0b350268655a00f90.js": "/nepali-vegetable-market/precache-manifest.6b83d603ad31e1e0b350268655a00f90.js",
+    "service-worker.js": "/nepali-vegetable-market/service-worker.js",
+    "static/css/main.a06da389.chunk.css.map": "/nepali-vegetable-market/static/css/main.a06da389.chunk.css.map",
+    "static/js/2.e482a87b.chunk.js.LICENSE.txt": "/nepali-vegetable-market/static/js/2.e482a87b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b2c677d.js",
+    "static/js/2.e482a87b.chunk.js",
+    "static/css/main.a06da389.chunk.css",
+    "static/js/main.f481ffb6.chunk.js"
+  ]
+}
