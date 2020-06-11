@@ -3,11 +3,14 @@ import time
 from threading import Thread
 
 from flask import Flask, jsonify
+from flask_cors import CORS
 
 from scrape import scrape_vegetable_price
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'mysecret_key'
+
+CORS(app)
 
 def background_task():
     """ Saving API details in every 3 hours """

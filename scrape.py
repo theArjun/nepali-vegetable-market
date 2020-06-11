@@ -53,6 +53,9 @@ def scrape_vegetable_price(lang="NE", date="06/04/2020", pricetype="W", last_n_d
             one_day_data["min_price"] = cells[2].get_text()
             one_day_data["max_price"] = cells[3].get_text()
             one_day_data["avg_price"] = cells[4].get_text()
+            one_day_data["days_before"] = i
+            if i == 0:
+                one_day_data["today"] = True
 
             data[vegetable_name][date] = one_day_data
             data[vegetable_name]['unit'] = cells[1].get_text()
